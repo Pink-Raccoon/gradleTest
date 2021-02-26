@@ -3,7 +3,12 @@
  */
 
 plugins {
-    id 'ch.zhaw.it.pm2.demo.gradle.java-library-conventions'
+    id 'java'
+    id 'application'
+}
+
+application{
+    mainClassName = 'ch.zhaw.it.pm2.demo.gradle.App'
 }
 
 dependencies {
